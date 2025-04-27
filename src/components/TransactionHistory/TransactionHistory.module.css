@@ -1,0 +1,19 @@
+.TransactionHistory {
+  min-width: 500px;
+  width: 100%;
+  max-width: 1280px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.TransactionHistory thead {
+  background-color: #252424;
+  color: white;
+}
+
+.TransactionHistory tr th,
+.TransactionHistory tr td {
+  padding: 1rem 10rem;
+  border: 1px solid #000;
+}

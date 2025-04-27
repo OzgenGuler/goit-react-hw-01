@@ -1,0 +1,37 @@
+.FriendList {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.FriendList .FriendList__item .FriendList__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 3px solid #000;
+  border-radius: 15px;
+  padding: 20px 15px;
+  width: 150px;
+}
+
+.FriendList__card .FriendList__card_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.FriendList__card .FriendList__card_name {
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.FriendList__card .FriendList__card_state {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: 0;
+  color: #666;
+}

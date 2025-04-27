@@ -1,0 +1,75 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.Profile .Profile__info {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0px 25px;
+  background-color: rgba(193, 188, 147, 0.13);
+}
+
+.Profile .Profile__info .Profile__image {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.Profile .Profile__info .Profile__title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.Profile .Profile__info .Profile__subTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #0000008a;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.Profile .Profile__stats {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(128, 126, 110, 0.204);
+}
+
+.Profile .Profile__stats .Profile__statsItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.Profile .Profile__stats .Profile__statsItem .Profile__statsItem_statKey,
+.Profile .Profile__stats .Profile__statsItem .Profile__statsItem_statValue {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.Profile .Profile__stats .Profile__statsItem .Profile__statsItem_statValue {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
