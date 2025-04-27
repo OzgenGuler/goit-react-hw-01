@@ -21,10 +21,12 @@ const Profile = ({
           <span className={ProfileCss.Profile__statsItem_statKey}>
             Followers
           </span>
+
           <span className={ProfileCss.Profile__statsItem_statValue}>
             {followers}
           </span>
         </li>
+
         <li className={ProfileCss.Profile__statsItem}>
           <span className={ProfileCss.Profile__statsItem_statKey}>Views</span>
 
@@ -32,8 +34,10 @@ const Profile = ({
             {views}
           </span>
         </li>
+
         <li className={ProfileCss.Profile__statsItem}>
           <span className={ProfileCss.Profile__statsItem_statKey}>Likes</span>
+
           <span className={ProfileCss.Profile__statsItem_statValue}>
             {likes}
           </span>
