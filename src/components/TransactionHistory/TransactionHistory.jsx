@@ -4,8 +4,10 @@ import TransactionHistoryCss from "./TransactionHistory.module.css";
 const TransactionHistoryItem = ({ type, amount, currency }) => {
   return (
     <>
-      <tr className={TransactionHistoryCss.TransactionHistory__item}>
-        <td>{type}</td> <td>{amount}</td> <td>{currency}</td>
+      <tr className={TransactionHistoryCss}>
+        <td>{type || "-"}</td>
+        <td>{amount || "-"}</td>
+        <td>{currency || "-"}</td>
       </tr>
     </>
   );
